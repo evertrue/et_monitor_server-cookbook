@@ -1,3 +1,7 @@
+## 1.0.4:
+
+* Bump shinken 1.0.3
+
 ## 1.0.3:
 
 * Bump shinken 1.0.2
