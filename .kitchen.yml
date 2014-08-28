@@ -12,16 +12,12 @@ platforms:
   - name: ubuntu-12.04
 
 suites:
-  - name: client
-    run_list:
-      - recipe[et_monitoring::default]
-    attributes:
   - name: server
     driver_config:
       network:
       - [ 'private_network', {ip: '192.168.33.11'}]
     run_list:
-      - recipe[et_monitoring::server]
+      - recipe[et_monitor_server::default]
     attributes:
       shinken:
         services: {}

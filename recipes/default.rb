@@ -1,8 +1,1 @@
-#
-# Cookbook Name:: et_monitoring
-# Recipe:: default
-#
-# Copyright (C) 2013 EverTrue, Inc.
-#
-# All rights reserved - Do Not Redistribute
-#
+include_recipe 'shinken'
