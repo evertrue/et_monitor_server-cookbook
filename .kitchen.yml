@@ -1,0 +1,28 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_zero
+  client_rb:
+    environment: 'stage'
+  encrypted_data_bag_secret_key_path: test/integration/encrypted_data_bag_secret
+
+platforms:
+  - name: ubuntu-12.04
+
+suites:
+  - name: client
+    run_list:
+      - recipe[et_monitoring::default]
+    attributes:
+  - name: server
+    driver_config:
+      network:
+      - [ 'private_network', {ip: '192.168.33.11'}]
+    run_list:
+      - recipe[et_monitoring::server]
+    attributes:
+      shinken:
+        services: {}
+        hostgroups: {}

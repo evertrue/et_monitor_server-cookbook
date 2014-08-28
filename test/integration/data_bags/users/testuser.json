@@ -1,0 +1,8 @@
+{
+  "id": "testuser",
+  "shinken": {
+    "email": "testuser@local",
+    "phone": "6175551212",
+    "is_admin": "1"
+  }
+}
