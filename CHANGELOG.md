@@ -1,3 +1,8 @@
+## 1.0.5:
+
+* Bump shinken 1.0.4
+* Add addl_hosts_entries
+
 ## 1.0.4:
 
 * Bump shinken 1.0.3
