@@ -1,6 +1,7 @@
 {
   "id": "monitoring",
   "shinken": {
-    "testuser": "testpass"
+    "testuser": "testpass",
+    "agent_key": "TEST_IDENTITY_FILE\n"
   }
 }
