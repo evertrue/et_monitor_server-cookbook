@@ -1,3 +1,8 @@
+## 1.1.0
+
+* Force source installation of shinken
+* Bump shinken 1.1.0
+
 ## 1.0.7
 
 * Bump shinken 1.0.6
