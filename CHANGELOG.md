@@ -1,3 +1,8 @@
+## 1.1.1
+
+* Bump shinken version v1.1.1
+* Add shinken agent key
+
 ## 1.1.0
 
 * Force source installation of shinken
