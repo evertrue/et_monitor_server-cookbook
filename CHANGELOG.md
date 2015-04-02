@@ -1,3 +1,7 @@
+## 1.2.1
+
+* Bump shinken 1.2.1
+
 ## 1.2.0
 
 * Use Supermarket cookbook source
