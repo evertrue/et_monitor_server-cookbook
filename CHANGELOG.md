@@ -1,3 +1,9 @@
+## 1.2.0
+
+* Use Supermarket cookbook source
+* Replace berkshelf cookbook API source with supermarket.chef.io
+* Version bump shinken 1.2.0
+
 ## 1.1.2
 
 * Bump shinken version 1.1.2
