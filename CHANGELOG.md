@@ -1,3 +1,9 @@
+## 1.2.2
+
+* Use serverspec to test for the right entry in /etc/hosts
+* Auto-populate /etc/hosts with non-VPC hosts
+* Use environment "dev" for testing instead of "stage"
+
 ## 1.2.1
 
 * Bump shinken 1.2.1
