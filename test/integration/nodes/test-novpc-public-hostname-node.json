@@ -1,0 +1,16 @@
+{
+  "name": "test-novpc-public-hostname-node",
+  "chef_environment": "dev",
+  "automatic": {
+    "ec2": {
+      "network_interfaces_macs": {
+        "00:00:00:00:00:00": {
+        }
+      },
+      "public_ipv4": "1.2.3.4",
+      "public_hostname": "ec2-public-hostname"
+    },
+    "fqdn": "test-novpc-public-hostname-node.local"
+  },
+  "run_list": []
+}
