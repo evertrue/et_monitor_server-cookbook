@@ -1,3 +1,7 @@
+## 1.2.3
+
+* Add check_http_nostatus command ([Trello Card #656]|https://trello.com/c/1mq240DJ/656-monitor-mesos-slave-port-5051-with-shinken)
+
 ## 1.2.2
 
 * Use serverspec to test for the right entry in /etc/hosts
