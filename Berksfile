@@ -3,4 +3,4 @@ source 'https://berks.evertrue.com'
 
 metadata
 
-cookbook 'et_hostname', github: 'evertrue/et_hostname-cookbook'
+cookbook 'et_hostname'
