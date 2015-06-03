@@ -1,3 +1,11 @@
+## 1.4.0
+
+* Bump shinken to 1.6.0
+ 
+## 1.3.0
+
+* Bump shinken to 1.5.0
+
 ## 1.2.3
 
 * Add check_http_nostatus command ([Trello Card #656]|https://trello.com/c/1mq240DJ/656-monitor-mesos-slave-port-5051-with-shinken)
