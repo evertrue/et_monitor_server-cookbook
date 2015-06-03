@@ -6,9 +6,10 @@ set['shinken']['commands']['check_http_nostatus'] = {
 }
 set['shinken']['commands']['check_remote_process'] = {
   'command_name' => 'check_remote_process',
-  'command_line' => '$NAGIOSPLUGINSDIR$/check_ssh ' \
-                    '--hostname $HOSTADDRESS$ ' \
+  'command_line' => '$NAGIOSPLUGINSDIR$/check_by_ssh ' \
+                    '-H $HOSTADDRESS$ ' \
                     "--logname #{node['shinken']['agent_user']} " \
                     "--command='pgrep -f $ARG1$' " \
+                    '-o StrictHostKeyChecking=no ' \
                     "--identity=#{node['shinken']['home']}/.ssh/id_rsa"
 }
