@@ -1,3 +1,7 @@
+## 1.4.1
+
+* Add check_remote_process command definition
+
 ## 1.4.0
 
 * Bump shinken to 1.6.0
