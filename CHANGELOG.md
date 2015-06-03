@@ -1,3 +1,7 @@
+## 1.4.2
+
+* Change the syntax of the check_ssh command a bit
+
 ## 1.4.1
 
 * Add check_remote_process command definition
