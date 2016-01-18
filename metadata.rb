@@ -6,4 +6,4 @@ description      'Monitor server wrapper cookbook'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '1.4.2'
 
-depends 'shinken', '= 1.6.0'
+depends 'shinken', '~> 1.7'
