@@ -1,3 +1,10 @@
+# CHANGELOG
+
+## 1.5.0
+
+* Make et_hostname a real (rather than Test Kitchen) dependency
+* Version bump shinken to 1.7 (and relax strict versioning)
+
 ## 1.4.2
 
 * Change the syntax of the check_ssh command a bit
