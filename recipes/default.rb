@@ -9,6 +9,7 @@ end
 node.set['et_hostname']['addl_hosts_entries'] =
   non_vpc_hosts.map { |n| "#{n['ec2']['public_ipv4']} #{n['fqdn']}" }
 
+include_recipe 'et_hostname'
 include_recipe 'shinken'
 include_recipe 'shinken::webui'
 include_recipe 'shinken::broker'
