@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.6.1
+
+* Pass community string to inode monitor command
+* Switch to non-encrypted test data bag
+
 ## 1.6.0
 
 * Add inode storage service
