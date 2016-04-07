@@ -9,3 +9,7 @@ describe file('/etc/hosts') do
     end
   end
 end
+
+describe file '/etc/shinken/services/storage_inodes.cfg' do
+  it { is_expected.to be_file }
+end
