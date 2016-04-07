@@ -16,8 +16,7 @@ set['shinken']['commands']['check_remote_process'] = {
 
 set['shinken']['services']['storage_inodes'] = {
   'hostgroup_name' => 'everything',
-  'service_description' => 'Inode consumption check',
-  'check_command' => 'check_inodes'
+  'service_description' => 'Inode consumption check'
 }
 
 set['shinken']['hostgroups']['everything'] = {
