@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.5.1
+
+* Add inode storage service
+
 ## 1.5.0
 
 * Make et_hostname a real (rather than Test Kitchen) dependency
