@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.6.0
+
+* Add inode storage service
+* Add an everything hostgroup and make storage_inodes a part of it
+
 ## 1.5.0
 
 * Make et_hostname a real (rather than Test Kitchen) dependency
