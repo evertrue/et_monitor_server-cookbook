@@ -13,3 +13,9 @@ set['shinken']['commands']['check_remote_process'] = {
                     '-o StrictHostKeyChecking=no ' \
                     "--identity=#{node['shinken']['home']}/.ssh/id_rsa"
 }
+
+set['shinken']['services']['storage_inodes'] = {
+  'hostgroup_name' => 'linux',
+  'service_description' => 'Inode consumption check',
+  'check_command' => 'check_inodes'
+}
