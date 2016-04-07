@@ -15,7 +15,14 @@ set['shinken']['commands']['check_remote_process'] = {
 }
 
 set['shinken']['services']['storage_inodes'] = {
-  'hostgroup_name' => 'linux',
+  'hostgroup_name' => 'everything',
   'service_description' => 'Inode consumption check',
   'check_command' => 'check_inodes'
+}
+
+set['shinken']['hostgroups']['everything'] = {
+  'search_str' => '*:*',
+  'conf' => {
+    'alias' => "All #{node.chef_environment} hosts"
+  }
 }
