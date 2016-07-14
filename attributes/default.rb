@@ -25,3 +25,6 @@ set['shinken']['hostgroups']['everything'] = {
     'alias' => "All #{node.chef_environment} hosts"
   }
 }
+
+override['shinken']['host_defaults']['event_handler'] = 'notify_slack_for_host!#ops'
+override['shinken']['host_defaults']['event_handler_enabled'] = 1
