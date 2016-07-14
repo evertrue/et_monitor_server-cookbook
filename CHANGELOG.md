@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.6.2
+
+* Make slack notification the default for host failures
+* Berksfile: Prefer our chef server as cookbook source
+
 ## 1.6.1
 
 * Pass community string to inode monitor command
