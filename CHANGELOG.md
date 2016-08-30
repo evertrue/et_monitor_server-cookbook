@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 1.6.3
+
+* New shinken cookbook no longer requires command_name to be defined (removing it)
+* Test on Ubuntu 14.04
+* Move check_remote_process to the core Shinken cookbook
+
 ## 1.6.2
 
 * Make slack notification the default for host failures
