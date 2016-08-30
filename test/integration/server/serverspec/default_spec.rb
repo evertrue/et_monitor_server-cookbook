@@ -23,7 +23,7 @@ describe file '/etc/shinken/hostgroups/everything.cfg' do
       is_expected.to eq("define hostgroup{
   alias All dev hosts
   hostgroup_name everything
-  members server-ubuntu-1204,test-novpc-public-hostname-node,test-vpc-node,test-vpc-public-hostname-node
+  members server-ubuntu-1404,test-novpc-public-hostname-node,test-vpc-node,test-vpc-public-hostname-node
 }\n")
     end
   end
