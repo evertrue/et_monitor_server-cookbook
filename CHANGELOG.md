@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.6.4
+
+* Monitor Consul memory usage across all hosts
+
 ## 1.6.3
 
 * New shinken cookbook no longer requires command_name to be defined (removing it)
