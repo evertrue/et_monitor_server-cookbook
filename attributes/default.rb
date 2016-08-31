@@ -8,6 +8,11 @@ set['shinken']['services']['storage_inodes'] = {
   'hostgroup_name' => 'everything',
   'service_description' => 'Inode consumption check'
 }
+set['shinken']['services']['consul_memory'] = {
+  'hostgroup_name' => 'everything',
+  'service_description' => 'Consul process max memory threshold 80M',
+  'check_command' => 'check_remote_process_memory!consul!81920'
+}
 
 set['shinken']['hostgroups']['everything'] = {
   'search_str' => '*:*',
