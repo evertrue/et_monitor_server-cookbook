@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.6.5
+
+* Make the Consul memory check schedule a little more forgiving
+
 ## 1.6.4
 
 * Monitor Consul memory usage across all hosts
