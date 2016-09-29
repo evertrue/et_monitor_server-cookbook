@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.0.0
+
+* Bump shinken cookbook to v2
+
 ## 1.6.5
 
 * Make the Consul memory check schedule a little more forgiving
