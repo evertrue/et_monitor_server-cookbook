@@ -12,8 +12,8 @@ set['shinken']['services']['consul_memory'] = {
   'hostgroup_name' => 'everything',
   'max_check_attempts' => 5,
   'check_interval' => 60,
-  'service_description' => 'Consul process max memory threshold 80M',
-  'check_command' => 'check_remote_process_memory!consul!81920'
+  'service_description' => 'Consul process max memory threshold 120M',
+  'check_command' => 'check_remote_process_memory!consul!122880'
 }
 
 set['shinken']['hostgroups']['everything'] = {
