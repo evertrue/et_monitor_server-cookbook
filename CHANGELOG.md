@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.0.1
+
+* Raise consul memory alert threshold to 120M
+
 ## 2.0.0
 
 * Bump shinken cookbook to v2
