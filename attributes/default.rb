@@ -16,6 +16,14 @@ set['shinken']['services']['consul_memory'] = {
   'check_command' => 'check_remote_process_memory!consul!122880',
   'event_handler' => 'notify_slack_for_host_service!#ops-dev'
 }
+set['shinken']['services']['excessive_deleted_files'] = {
+  'hostgroup_name' => 'everything',
+  'max_check_attempts' => 5,
+  'check_interval' => 240,
+  'service_description' => 'Deleted files exceeded 32',
+  'check_command' => 'check_deleted_files!32',
+  'event_handler' => 'notify_slack_for_host_service!#ops-dev'
+}
 
 set['shinken']['hostgroups']['everything'] = {
   'search_str' => '*:*',
