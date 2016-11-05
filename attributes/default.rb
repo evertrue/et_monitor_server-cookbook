@@ -18,7 +18,7 @@ set['shinken']['services']['consul_memory'] = {
 }
 set['shinken']['services']['excessive_deleted_files'] = {
   'hostgroup_name' => 'everything',
-  'max_check_attempts' => 5,
+  'max_check_attempts' => 10,
   'check_interval' => 240,
   'service_description' => 'Deleted files exceeded 32',
   'check_command' => 'check_deleted_files!32',
