@@ -4,7 +4,7 @@ maintainer_email 'devops@evertrue.com'
 license          'All rights reserved'
 description      'Monitor server wrapper cookbook'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '2.0.2'
+version          '2.0.3'
 
 depends 'shinken', '~> 2.0'
 depends 'et_hostname', '~> 1.1'
