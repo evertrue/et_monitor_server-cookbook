@@ -28,3 +28,7 @@ describe file '/etc/shinken/hostgroups/everything.cfg' do
     end
   end
 end
+
+describe process '/usr/bin/shinken-broker' do
+  its(:count) { is_expected.to be > 0 }
+end
