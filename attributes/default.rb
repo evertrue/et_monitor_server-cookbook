@@ -12,8 +12,8 @@ set['shinken']['services']['consul_memory'] = {
   'hostgroup_name' => 'everything',
   'max_check_attempts' => 10,
   'check_interval' => 240,
-  'service_description' => 'Consul process max memory threshold 120M',
-  'check_command' => 'check_remote_process_memory!consul!163840',
+  'service_description' => 'Consul process max memory threshold 192M',
+  'check_command' => 'check_remote_process_memory!consul!196608',
   'event_handler' => 'notify_slack_for_host_service!#ops-dev'
 }
 set['shinken']['services']['excessive_deleted_files'] = {
