@@ -40,5 +40,5 @@ set['shinken']['hostgroups']['everything'] = {
   }
 }
 
-override['shinken']['host_defaults']['event_handler'] = 'notify_slack_for_host!#ops'
+override['shinken']['host_defaults']['event_handler'] = 'notify_slack_for_host!#ops-dev'
 override['shinken']['host_defaults']['event_handler_enabled'] = 1
