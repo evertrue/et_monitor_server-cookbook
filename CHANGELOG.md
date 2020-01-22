@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.0.10
+
+* Removed filebeat overrides
+
 ## 2.0.1
 
 * Raise consul memory alert threshold to 120M

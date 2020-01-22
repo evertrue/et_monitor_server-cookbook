@@ -24,14 +24,6 @@ set['shinken']['services']['excessive_deleted_files'] = {
   'check_command' => 'check_deleted_files!32',
   'event_handler' => 'notify_slack_for_host_service!#ops-dev'
 }
-override['shinken']['services']['filebeat-process'] = {
-  'hostgroup_name' => 'everything',
-  'service_description' => 'Check that the filebeat process is running',
-  'max_check_attempts' => 10,
-  'check_interval' => 240,
-  'check_command' => 'check_remote_process!filebeat',
-  'event_handler' => 'notify_slack_for_host_service!#ops-dev'
-}
 
 set['shinken']['hostgroups']['everything'] = {
   'search_str' => '*:*',
