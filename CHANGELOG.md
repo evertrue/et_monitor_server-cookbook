@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## 2.0.11
+## 2.0.12
 
 * Turning off consul memory check
 
