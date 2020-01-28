@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.0.11
+
+* Turning off consul memory check
+
 ## 2.0.10
 
 * Removed filebeat overrides
